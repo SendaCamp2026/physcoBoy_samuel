@@ -122,7 +122,7 @@ let cantidadSaltos = 0
 let velocidadX = 0
 let MaxSalto = 0
 let nivelActual = 0
-scene.setBackgroundColor(9)
+scene.setBackgroundImage(assets.image`bosque_physco`)
 music.setVolume(255)
 nivelActual = 1
 MaxSalto = 2

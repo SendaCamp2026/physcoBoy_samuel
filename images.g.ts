@@ -263,6 +263,44 @@ f f f c 3 c c c c c c f . .
 . . . . . 8 8 . . 8 8 . . . . . 
 . . . . . f f . . f f . . . . . 
 `;
+            case "image13":
+            case "personaje_1":return img`
+. . . . . . . . . . . . . . . . 
+. . . e e e e e e e e . . . . . 
+. . e e e e e e e e e e e e . . 
+. e e e e e e e e e e e e e . . 
+. e e e e e e d e e e e e . . . 
+. . e e e e d d e e e e . . . . 
+. . . e e d 1 f d f 1 e . . . . 
+. . . . e d d d d d d e . . . . 
+. . . . . 6 d d d d 6 . . . . . 
+. . . d d 6 6 6 6 6 6 d . . . . 
+. . . d d 6 6 6 6 6 6 d . . . . 
+. . . d d 6 6 6 6 6 6 d . . . . 
+. . . . . f f 5 5 f f . . . . . 
+. . . . . 8 8 8 8 8 8 . . . . . 
+. . . . . 8 8 . . 8 8 . . . . . 
+. . . . . f f . . f f . . . . . 
+`;
+            case "image14":
+            case "personaje_2":return img`
+. . . . . . . . . . . . . . . . 
+. . . e e e e e e e e . . . . . 
+. . e e e e e e e e e e e e . . 
+. e e e e e e e e e e e e e . . 
+. e e e e e e d e e e e e . . . 
+. . e e e e d d e e e e . . . . 
+. . . e e d 1 f d f 1 e . . . . 
+. . . . e d d d d d d e . . . . 
+. . d d . 6 d d d d 6 . d d . . 
+. . d d d 6 6 6 6 6 6 d d d . . 
+. . . d d 6 6 6 6 6 6 d d . . . 
+. . . . . 6 6 6 6 6 6 . . . . . 
+. . . . . f f 5 5 f f . . . . . 
+. . . . . 8 8 8 8 8 8 . . . . . 
+. . . . . 8 8 . . f f . . . . . 
+. . . . . f f . . . . . . . . . 
+`;
             case "image19":
             case "bosque_physco":return img`
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -385,44 +423,6 @@ aaa3bbbbbbaaaaaaaaaaaa3bbbbbbbbbaaaaaaaaaaa3bbbbbbaaaaaaaaaaaa3bbbbbbbbbaaaaaaaa
 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
-`;
-            case "image13":
-            case "personaje_1":return img`
-. . . . . . . . . . . . . . . . 
-. . . e e e e e e e e . . . . . 
-. . e e e e e e e e e e e e . . 
-. e e e e e e e e e e e e e . . 
-. e e e e e e d e e e e e . . . 
-. . e e e e d d e e e e . . . . 
-. . . e e d 1 f d f 1 e . . . . 
-. . . . e d d d d d d e . . . . 
-. . . . . 6 d d d d 6 . . . . . 
-. . . d d 6 6 6 6 6 6 d . . . . 
-. . . d d 6 6 6 6 6 6 d . . . . 
-. . . d d 6 6 6 6 6 6 d . . . . 
-. . . . . f f 5 5 f f . . . . . 
-. . . . . 8 8 8 8 8 8 . . . . . 
-. . . . . 8 8 . . 8 8 . . . . . 
-. . . . . f f . . f f . . . . . 
-`;
-            case "image14":
-            case "personaje_2":return img`
-. . . . . . . . . . . . . . . . 
-. . . e e e e e e e e . . . . . 
-. . e e e e e e e e e e e e . . 
-. e e e e e e e e e e e e e . . 
-. e e e e e e d e e e e e . . . 
-. . e e e e d d e e e e . . . . 
-. . . e e d 1 f d f 1 e . . . . 
-. . . . e d d d d d d e . . . . 
-. . d d . 6 d d d d 6 . d d . . 
-. . d d d 6 6 6 6 6 6 d d d . . 
-. . . d d 6 6 6 6 6 6 d d . . . 
-. . . . . 6 6 6 6 6 6 . . . . . 
-. . . . . f f 5 5 f f . . . . . 
-. . . . . 8 8 8 8 8 8 . . . . . 
-. . . . . 8 8 . . f f . . . . . 
-. . . . . f f . . . . . . . . . 
 `;
         }
         return null;
