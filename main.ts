@@ -89,7 +89,7 @@ function crearNivel () {
 }
 function crearRecompensas () {
     for (let valor of tiles.getTilesByType(assets.tile`recompensa1`)) {
-        mySprite4 = sprites.create(assets.image`Recompensa1`, SpriteKind.Vida)
+        mySprite4 = sprites.create(assets.image`Ayudante`, SpriteKind.Vida)
         tiles.placeOnTile(mySprite4, valor)
         tiles.setTileAt(valor, assets.tile`baseTransparency16`)
     }
